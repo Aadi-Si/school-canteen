@@ -1,0 +1,187 @@
+{
+  "snacks": [
+    {
+      "id": "1",
+      "name": "Veg Puff",
+      "price": 20,
+      "ordersCount": 2,
+      "imageUrl": "https://www.thesugarandspice.com/cdn/shop/files/CopyofLSD07524.png?v=1741764906"
+    },
+    {
+      "id": "2",
+      "name": "Samosa",
+      "price": 15,
+      "ordersCount": 2,
+      "imageUrl": "https://media.istockphoto.com/id/2148933061/photo/selective-focus-samosa-spiced-potato-filled-pastry-crispy-savory-popular-indian-snack-with.jpg?s=612x612&w=0&k=20&c=HW1y3HYPa7r-YwB6wn3gktZP-1Fzw9bYKsR8D6yqQOs="
+    },
+    {
+      "id": "3",
+      "name": "Chocolate Milk Shake",
+      "price": 25,
+      "ordersCount": 2,
+      "imageUrl": "https://wholefoodsoulfoodkitchen.com/wp-content/uploads/2022/04/chocolate-milkshake-no-ice-cream-2.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Noddles",
+      "price": 50,
+      "ordersCount": 1,
+      "imageUrl": "https://www.chilitochoc.com/wp-content/uploads/2021/03/Desi-Chow-Mein-featured.jpg"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Rahul",
+      "referralCode": "REF-1234",
+      "totalSpent": 115,
+      "orders": [
+        {
+          "studentId": "1",
+          "snackId": "1",
+          "snackName": "Veg Puff",
+          "quantity": 2,
+          "totalPrice": 40,
+          "createdAt": "2026-01-31T17:43:16.738Z"
+        },
+        {
+          "studentId": "1",
+          "snackId": "3",
+          "snackName": "Chocolate Milk",
+          "quantity": 3,
+          "totalPrice": 75,
+          "createdAt": "2026-01-31T17:43:33.234Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Anjali",
+      "referralCode": "REF-5678",
+      "totalSpent": 90,
+      "orders": [
+        {
+          "studentId": "2",
+          "snackId": "2",
+          "snackName": "Samosa",
+          "quantity": 1,
+          "totalPrice": 15,
+          "createdAt": "2026-01-31T17:43:26.386Z"
+        },
+        {
+          "studentId": "2",
+          "snackId": "3",
+          "snackName": "Chocolate Milk Shake",
+          "quantity": 2,
+          "totalPrice": 50,
+          "createdAt": "2026-01-31T19:17:33.308Z"
+        }
+      ]
+    },
+    {
+      "id": "FR249QJ4-lH17dYFQtgoB",
+      "name": "Anand Singh",
+      "referralCode": "REF-957",
+      "totalSpent": 85,
+      "orders": [
+        {
+          "studentId": "FR249QJ4-lH17dYFQtgoB",
+          "snackId": "1",
+          "snackName": "Veg Puff",
+          "quantity": 2,
+          "totalPrice": 40,
+          "createdAt": "2026-01-31T18:13:25.677Z"
+        },
+        {
+          "studentId": "FR249QJ4-lH17dYFQtgoB",
+          "snackId": "2",
+          "snackName": "Samosa",
+          "quantity": 3,
+          "totalPrice": 45,
+          "createdAt": "2026-01-31T19:17:42.744Z"
+        }
+      ]
+    },
+    {
+      "id": "ToxKP9OJu3V8COlVUKLBa",
+      "name": "Aditya",
+      "referralCode": "REF-410",
+      "totalSpent": 100,
+      "orders": [
+        {
+          "studentId": "ToxKP9OJu3V8COlVUKLBa",
+          "snackId": "4",
+          "snackName": "Noddles",
+          "quantity": 2,
+          "totalPrice": 100,
+          "createdAt": "2026-01-31T19:22:10.801Z"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "78ff",
+      "studentId": "1",
+      "snackId": "1",
+      "snackName": "Veg Puff",
+      "quantity": 2,
+      "totalPrice": 40,
+      "createdAt": "2026-01-31T17:43:16.738Z"
+    },
+    {
+      "id": "9781",
+      "studentId": "2",
+      "snackId": "2",
+      "snackName": "Samosa",
+      "quantity": 1,
+      "totalPrice": 15,
+      "createdAt": "2026-01-31T17:43:26.386Z"
+    },
+    {
+      "id": "482b",
+      "studentId": "1",
+      "snackId": "3",
+      "snackName": "Chocolate Milk",
+      "quantity": 3,
+      "totalPrice": 75,
+      "createdAt": "2026-01-31T17:43:33.234Z"
+    },
+    {
+      "id": "edf5",
+      "studentId": "FR249QJ4-lH17dYFQtgoB",
+      "snackId": "1",
+      "snackName": "Veg Puff",
+      "quantity": 2,
+      "totalPrice": 40,
+      "createdAt": "2026-01-31T18:13:25.677Z"
+    },
+    {
+      "id": "1523",
+      "studentId": "2",
+      "snackId": "3",
+      "snackName": "Chocolate Milk Shake",
+      "quantity": 2,
+      "totalPrice": 50,
+      "createdAt": "2026-01-31T19:17:33.308Z"
+    },
+    {
+      "id": "5b41",
+      "studentId": "FR249QJ4-lH17dYFQtgoB",
+      "snackId": "2",
+      "snackName": "Samosa",
+      "quantity": 3,
+      "totalPrice": 45,
+      "createdAt": "2026-01-31T19:17:42.744Z"
+    },
+    {
+      "id": "b6fd",
+      "studentId": "ToxKP9OJu3V8COlVUKLBa",
+      "snackId": "4",
+      "snackName": "Noddles",
+      "quantity": 2,
+      "totalPrice": 100,
+      "createdAt": "2026-01-31T19:22:10.801Z"
+    }
+  ]
+}
