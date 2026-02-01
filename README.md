@@ -17,7 +17,7 @@ The goal of this project is to demonstrate **clean state management, API interac
 
 ## 📸 Project Screenshots
 
-> 📌 Add screenshots in a `screenshots/` folder and update paths below
+
 
 ### 🧾 Snacks Page
 
